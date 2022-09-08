@@ -24,7 +24,7 @@ def send_email():
         print('Email send successfully')
 
 
-# Check if IP has changed
+# Check if IP has changed and send me an email if it is
 file = open('./saved_ip.txt', 'r')
 old_ip = file.readline()
 if external_ip != old_ip:
