@@ -16,6 +16,8 @@ to = 'darinchakalov@hotmail.com'
 
 subject = 'New home IP address'
 
+def returnIP():
+    return external_ip
 
 def send_email():
     content = f'New home public IP address: {external_ip}'
