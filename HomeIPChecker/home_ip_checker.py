@@ -10,9 +10,9 @@ local_ip_addr = socket.gethostbyname(hostname)
 external_ip = get('https://api.ipify.org').content.decode('utf8')
 
 
-user = 'volatilebg@gmail.com'
-app_password = "ageiwuvgvoaoiklc"
-to = 'darinchakalov@hotmail.com'
+user = ''
+app_password = ""
+to = ''
 
 subject = 'New home IP address'
 
